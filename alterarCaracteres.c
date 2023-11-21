@@ -6,7 +6,7 @@ int main() {
     char minhaString[10] = "Exemplo";
 
     // Define todos os caracteres da cadeia para '*'
-    memset(minhaString, 'e', sizeof(minhaString[0]));
+    memset(minhaString, '*', sizeof(minhaString));
 
     // Imprime a cadeia de caracteres após a modificação
     printf("Cadeia de caracteres após strset: %s\n", minhaString);
